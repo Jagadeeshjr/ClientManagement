@@ -1,7 +1,7 @@
 ﻿using ClientManagement.Models;
 using Microsoft.AspNetCore.JsonPatch;
 
-namespace ClientManagement.Repository
+namespace ClientManagement.BusinessLogic.Repository.Contracts
 {
     public interface IClientRepository
     {

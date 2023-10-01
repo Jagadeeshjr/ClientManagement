@@ -1,9 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace ClientManagement.Models
+namespace ClientManagement.Models.Models.Authentication
 {
-    [Keyless]
     public class SignInModel
     {
         [Required, EmailAddress]

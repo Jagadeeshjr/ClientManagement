@@ -7,8 +7,9 @@ using Microsoft.Extensions.Caching.Memory;
 using System.Reflection;
 using System.Text;
 using System.Linq.Dynamic.Core;
+using ClientManagement.BusinessLogic.Repository.Contracts;
 
-namespace ClientManagement.Repository
+namespace ClientManagement.BusinessLogic.Repository.Implementation
 {
     public class ClientRepository : IClientRepository
     {

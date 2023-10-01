@@ -1,7 +1,7 @@
-﻿using ClientManagement.Models;
+﻿using ClientManagement.Models.Models.Authentication;
 using Microsoft.AspNetCore.Identity;
 
-namespace ClientManagement.Repository
+namespace ClientManagement.BusinessLogic.Repository.Contracts
 {
     public interface IAccountRepository
     {

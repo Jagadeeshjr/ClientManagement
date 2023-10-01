@@ -1,5 +1,5 @@
-﻿using ClientManagement.Models;
-using ClientManagement.Repository;
+﻿using ClientManagement.BusinessLogic.Repository.Contracts;
+using ClientManagement.Models.Models.Authentication;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

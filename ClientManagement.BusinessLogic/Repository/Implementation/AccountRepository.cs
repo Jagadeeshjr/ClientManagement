@@ -1,13 +1,13 @@
-﻿using ClientManagement.Models;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using Microsoft.Extensions.Configuration;
+using ClientManagement.Models.Models.Authentication;
+using ClientManagement.BusinessLogic.Repository.Contracts;
 
-
-namespace ClientManagement.Repository
+namespace ClientManagement.BusinessLogic.Repository.Implementation
 {
     public class AccountRepository : IAccountRepository
     {

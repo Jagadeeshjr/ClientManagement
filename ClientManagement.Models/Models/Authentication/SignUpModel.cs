@@ -1,7 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
-namespace ClientManagement.Models
+namespace ClientManagement.Models.Models.Authentication
 {
 
     public class SignUpModel

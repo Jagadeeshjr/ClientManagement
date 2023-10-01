@@ -24,4 +24,10 @@
     <PackageReference Include="System.Linq.Dynamic.Core" Version="1.3.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ClientManagement.BusinessLogic\ClientManagement.BusinessLogic.csproj" />
+    <ProjectReference Include="..\ClientManagement.DataAccess\ClientManagement.DataAccess.csproj" />
+    <ProjectReference Include="..\ClientManagement.Models\ClientManagement.Models.csproj" />
+  </ItemGroup>
+
 </Project>
